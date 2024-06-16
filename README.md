@@ -1,31 +1,31 @@
-#项目介绍
+# 项目介绍
 智能麦轮小车，基于Keil5开发，开发语言为C语言。基本功能：循迹、机械臂、视觉形状识别、红外遥控。视觉识别采用K210，代码不该项目中，但是包含K210和STM32的通讯以及后续任务控制。
-##硬件
+## 硬件
 主控采用STM32ZET6，车体其他主要硬件包括：直流减速编码器电机、灰度传感器（幻尔）、陀螺仪。
-##软件
-基于STM32开发的基本文件：PROJECT、CMSIS、FWlib。（教程：零死角玩转STM32-F103指南者）
-用户文件：USER、HARDWARE、SYSTEM、APP。
-###用户文件介绍
-USER：主函数文件
-HARDWARE：硬件文件
-SYSTEM:芯片系统文件（delay、usart、sys、io）
-APP：应用层文件
+## 软件
+- 基于STM32开发的基本文件：PROJECT、CMSIS、FWlib。（教程：零死角玩转STM32-F103指南者）
+- 用户文件：USER、HARDWARE、SYSTEM、APP。
+### 用户文件介绍
+- USER：主函数文件
+- HARDWARE：硬件文件
+- SYSTEM:芯片系统文件（delay、usart、sys、io）
+- APP：应用层文件
 
 ---
-#项目移植介绍
+# 项目移植介绍
 由于该项目应用于一个特定比赛中，因此完整项目不具有移植和应用价值。可以参考项目中的部分代码去移植至你的项目中，其中大部分函数代码都有代码介绍，且解耦，可移植性高。以下详细介绍HARDWARE文件、粗略介绍APP文件、简要介绍USER文件。
-##HARDWARE
-###BEEP
+## HARDWARE
+### BEEP
 有源蜂鸣器文件。
-###Encoder
+### Encoder
 编码器文件
-###LobotServoController
+### LobotServoController
 机械臂控制文件
-###MOTOR
+### MOTOR
 直流减速电机文件&&麦轮控制文件
-###MPU6050
+### MPU6050
 陀螺仪文件
-###Remote
+### Remote
 红外遥控器文件
-###Sensor\_infrared
+### Sensor\_infrared
 灰度传感器文件
