@@ -1,8 +1,10 @@
 #ifndef __BEEP_H
 #define __BEEP_H
 
-#define BEEP_soundtime	2000		//蜂鸣器鸣叫时间值（单位：ms） 值修改意见：可在此修改值调整蜂鸣器鸣叫时间
-extern int cnt,Move_flag;
+#define BEEP_GPIO_CLK  RCC_APB2Periph_GPIOD
+#define BEEP_GPIO_PORT GPIOD
+#define BEEP_GPIO_PIN  GPIO_Pin_10
+
 /****************************************************************************
 *  函数名称：BEEP_Init
 *  功能说明：蜂鸣器初始化
