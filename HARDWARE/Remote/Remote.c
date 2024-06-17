@@ -167,4 +167,3 @@ uint8_t IR_GetCommand(void)
 //	Command=IR_GetCommand();		//»ñÈ¡Ò£¿ØÆ÷ÃüÁîÂë
 //}
 
-

@@ -16,7 +16,7 @@ void BEEP_Init(void)
 void BEEP_sound(void)
 {
 	GPIO_SetBits(BEEP_GPIO_PORT,BEEP_GPIO_PIN);
-	Delay_ms(500);
+	delay_ms(500);
 	GPIO_ResetBits(BEEP_GPIO_PORT,BEEP_GPIO_PIN);
 }
  

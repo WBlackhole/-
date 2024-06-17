@@ -2,51 +2,7 @@
 #define __ROBOTARM_H
 
 
-#include "main.h"
 
 void RobotArm_init(void);
-void suijiqu(void);
-void jinchuyuanzhu6kuang1(void);
-void jinchuyuanzhu6kuang2(void);
-void jinchuyuanzhu6kuang3(void);
-void jinchuyuanzhu6kuang4(void);
-void jinchuyuanzhu6kuang5(void);
-void jinchuyuanzhu6kuang6(void);
-void jinchuyuanzhu6kuang7(void);
-void jinchuyuanzhu6kuang8(void);
-void jinchuyuanzhu6kuang9(void);
-void y3z_1(void);
-void y3z_2(void);
-void y3z_3(void);
-void y3z_4(void);
-void y3z_5(void);
-void y3z_6(void);
-void y3z_7(void);
-void y3z_8(void);
-void y3z_9(void);
-void y3z_10(void);
-void y3z_11(void);
-void y3z_12(void);
-void capture_8(void);
-void capture_9(void);
-void capture_10(void);
-void capture_10_2(void);
-void capture_11(void);
-void capture_12(void);
-void capture_13(void);
-void capture_14(void);
-void capture_15(void);
-void capture_16(void);
-void capture_17(void);
-void capture_18(void);
-void capture_19(void);
-void capture_20(void);
-void capture_21(void);
-void capture_22(void);
-void capture_23(void);
-void capture_24(void);
-void capture_raise_small_1(void);
-void capture_raise_small_2(void);
-void capture_raise_big_1(void);
-void capture_raise_big_2(void);
+
 #endif

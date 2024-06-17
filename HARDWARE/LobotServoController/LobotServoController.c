@@ -1,9 +1,3 @@
-/*******************************************************************************
-* 文件名： LobotServoController.c
-* 作者： 深圳乐幻索尔科技
-* 日期：20160806
-* LSC系列舵机控制板二次开发示例
-*******************************************************************************/
 #include "stm32f10x.h"
 #include "LobotServoController.h"
 #include <stdarg.h>
@@ -205,7 +199,7 @@ void receiveHandle()
 {
 	//可以根据二次开发手册添加其他指令
 	if (isUartRxCompleted) {
-		isUartRxCompleted = false;
+
 		switch (LobotRxBuf[3]) {
 		case CMD_GET_BATTERY_VOLTAGE: //获取电压
 			batteryVolt = (((uint16_t)(LobotRxBuf[5])) << 8) | (LobotRxBuf[4]);

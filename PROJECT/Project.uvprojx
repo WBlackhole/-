@@ -566,11 +566,6 @@
               <FilePath>..\APP\bsp_sys\bsp_sys.c</FilePath>
             </File>
             <File>
-              <FileName>process.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\APP\Process\process.c</FilePath>
-            </File>
-            <File>
               <FileName>RobotArm.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\APP\RobotArm\RobotArm.c</FilePath>
@@ -631,34 +626,19 @@
               <FilePath>..\HARDWARE\BEEP\BEEP.c</FilePath>
             </File>
             <File>
-              <FileName>BEEP.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\BEEP\BEEP.h</FilePath>
-            </File>
-            <File>
               <FileName>Encoder.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\Encoder\Encoder.c</FilePath>
             </File>
             <File>
-              <FileName>Encoder.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\Encoder\Encoder.h</FilePath>
+              <FileName>speed_PWM.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\MOTOR\speed_PWM.c</FilePath>
             </File>
             <File>
-              <FileName>speed_PWM.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\HARDWARE\MOTOR\speed_PWM.lib</FilePath>
-            </File>
-            <File>
-              <FileName>speed_PWM.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\MOTOR\speed_PWM.h</FilePath>
-            </File>
-            <File>
-              <FileName>motor.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\HARDWARE\MOTOR\motor.lib</FilePath>
+              <FileName>motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\MOTOR\motor.c</FilePath>
             </File>
             <File>
               <FileName>motor.h</FileName>
@@ -666,29 +646,9 @@
               <FilePath>..\HARDWARE\MOTOR\motor.h</FilePath>
             </File>
             <File>
-              <FileName>mpu6050.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\HARDWARE\MPU6050\mpu6050.lib</FilePath>
-            </File>
-            <File>
-              <FileName>mpu6050.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\MPU6050\mpu6050.h</FilePath>
-            </File>
-            <File>
-              <FileName>IIC.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\HARDWARE\Sensor_infrared\IIC.lib</FilePath>
-            </File>
-            <File>
-              <FileName>IIC.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\Sensor_infrared\IIC.h</FilePath>
-            </File>
-            <File>
-              <FileName>sensor_infrared.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\Sensor_infrared\sensor_infrared.h</FilePath>
+              <FileName>IIC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\Sensor_infrared\IIC.c</FilePath>
             </File>
             <File>
               <FileName>Remote.c</FileName>

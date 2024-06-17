@@ -1,10 +1,3 @@
-/*******************************************************************************
-* 文件名: LobotServoController.h
-* 作者: 深圳乐幻索尔科技
-* 日期：20160806
-* LSC系列舵机控制板二次开发示例
-*******************************************************************************/
-
 #ifndef LOBOTSERVOCONTROLLER_H_
 #define LOBOTSERVOCONTROLLER_H_
 
@@ -42,3 +35,4 @@ void getBatteryVoltage(void);
 
 
 #endif
+
