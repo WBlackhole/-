@@ -15,17 +15,10 @@
 # 项目移植介绍
 由于该项目应用于一个特定比赛中，因此完整项目不具有移植和应用价值。可以参考项目中的部分代码去移植至你的项目中，其中大部分函数代码都有代码介绍，且解耦，可移植性高。以下详细介绍HARDWARE文件、粗略介绍APP文件、简要介绍USER文件。
 ## HARDWARE
-### BEEP
-有源蜂鸣器文件。
-### Encoder
-编码器文件
-### LobotServoController
-机械臂控制文件
-### MOTOR
-直流减速电机文件&&麦轮控制文件
-### MPU6050
-陀螺仪文件
-### Remote
-红外遥控器文件
-### Sensor\_infrared
-灰度传感器文件
+- BEEP:有源蜂鸣器文件
+- Encoder:编码器文件
+- LobotServoController:机械臂控制文件
+- MOTOR:直流减速电机文件&&麦轮控制文件
+- MPU6050:陀螺仪文件
+- Remote:红外遥控器文件
+- Sensor\_infrared:灰度传感器文件
